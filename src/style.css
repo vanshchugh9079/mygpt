@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.v-main {
+    height: 100vh;
+}
+
+.v-btn {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+}
+
+.v-border {
+    border: 2px solid black;
+}
+
+.v-input>textarea {
+    outline: none;
+    border: none;
+    overflow: none;
+    scrollbar-width: 0;
+}
+
+.v-input>textarea::placeholder {
+    color: lightgray !important;
+}
+
+.v-circle {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.v-send {
+    cursor: pointer;
+    width: 30px;
+}
+
+.v-input {
+    margin-right: 15vw;
+}
+
+.v-img {
+    width: 55px
+}
+
+.v-randomcomp {
+    width: 34vw;
+}
+
+.v-randomcomp>p {
+    color: lightgray
+}
+
+.white-border {
+    border: 1px solid lightgrey;
+}
+
+.v-sendhover {
+    bottom: 3rem;
+    left: 36rem;
+    background-color: gray !important;
+    transition-duration: 2s ease-in All;
+}
+
+textarea {
+    resize: none;
+}
+
+.v-disable {
+    background-color: lightgray;
+}
+
+.lightgray {
+    background-color: lightgray;
+    opacity: 0.6;
+    cursor: default !important
+}
+
+.v-send:hover {
+    color: black;
+}
+
+.sender-image {
+    width: 30px;
+    height: 30px;
+}
+
+.v-mess {
+    margin-left: 2.5rem !important;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.v-headlogin {
+    font-size: 80px;
+}
+
+.v-logwidth {
+    width: 50vw;
+}
+
+.v-eye-login {
+    position: absolute;
+    top: 50.76vh;
+    right: 25.78vw;
+    cursor: pointer;
+}
+
+.btn-log:hover {
+    background-color: white !important;
+    color: red !important;
+    border: 2px solid black !important;
+    font-weight: bold !important;
+}
+
+.v-btn:hover {
+    background-color: black;
+}
+
+.v-btn:focus {
+    background-color: green !important
+}
+
+.v-password {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    ;
+}
+
+.log-btn {
+    margin-left: 5rem;
+}
+
+.width-fixer {
+    width: 60%;
+}
+
+/* Style the container with the scrollbar */
+.v-container {
+    height: 87%;
+    /* Set the height of the container */
+    overflow-y: scroll;
+    /* Enable vertical scrolling */
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar for Firefox */
+}
+
+/* Style the scrollbar for WebKit browsers (Chrome, Safari) */
+.v-container::-webkit-scrollbar {
+    width: 5px;
+    /* Set the width of the scrollbar */
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+/* Style the scrollbar track */
+.v-container::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+    /* Set the background color of the track */
+}
+
+/* Style the scrollbar handle */
+.v-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Set the color of the handle */
+    border-radius: 90px;
+    /* Add some border-radius for a rounded look */
+}
+
+/* Style the scrollbar handle on hover */
+.v-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Set the color of the handle on hover */
+}
+
+.v-asidecont>div {
+    background-color: black;
+    width: 15% !important;
+    border: 1 px solid black;
+}
+
+.v-asidecont>div:hover {
+    background-color: gray;
+}
+
+.v-aside {
+    background-color: black !important;
+    height: 100vh;
+    overflow-y: auto !important;
+    ;
+}
+
+.v-chathead:hover {
+    background-color: gray !important;
+    border-radius: 20px;
+    cursor: pointer !important;
+}
+
+#history-cont {
+    height: 80vh !important;
+    margin-top: 5rem !important;
+}
+
+.v-aside::-webkit-scrollbar {
+    width: 5px;
+    background-color: #555 !important;
+}
+
+.v-aside::-webkit-scrollbar-thumb {
+    background-color: #f4f4f4;
+}
+
+.v-aside::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(176, 174, 174) !important;
+}
+
+#name-circle {
+    width: 50px;
+    height: 50px;
+}
+
+.v-asidebottom>div {
+    background-color: black !important;
+    width: 180px;
+}
+
+.v-asidebottom {
+    height: 80px !important;
+}
+
+.v-asidebottom>div:hover {
+    background-color: gray !important;
+    ;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .log-btn {
+        margin-left: 5.5rem;
+    }
+    .v-margin{
+        margin-left:12rem;
+        z-index: 100;
+    }
+    .v-input {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+   .v-asidecont{
+    z-index: 10;
+   }
+    .v-main{
+        z-index: 30;
+    }
+    .show-aside {
+        display: block !important;
+        position: fixed !important;
+        width: 30vw !important;
+        z-index: 50;
+    }
+    .aside-remove{
+            display: none ;
+    }
+    .show-aside {
+        display: block ;
+        position: fixed !important;
+        width: 30vw !important;
+        z-index: 100;
+    }
+    .v-asidecont>div {
+        width: 20% !important;
+    }
+    
+}
